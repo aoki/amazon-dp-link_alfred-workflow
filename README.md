@@ -4,6 +4,13 @@ This Alfred workflow provide extract ASIN code from URL , genrate Amazon DP link
 ## Install
 
 ```sh
+npm install --global git+https://github.com/aoki/amazon-dp-link_alfred-workflow.git
+```
+
+or
+```sh
+git clone https://github.com/aoki/amazon-dp-link_alfred-workflow.git
+cd amazon-dp-link_alfred-workflow
 npx alfy-init
 ```
 
