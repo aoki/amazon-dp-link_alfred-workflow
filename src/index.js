@@ -1,5 +1,6 @@
-const alfy = require('alfy')
+const alfy = require('alfy');
 if (alfy.input.startsWith('https://www.amazon.')) {
-  const res = 'https://amazon.co.jp/' + alfy.input.match(/dp\/\w{10}/)[0]
-  console.log(res)
+  // TODO gp/product link
+  const res = 'https://amazon.co.jp/' + alfy.input.match(/(dp|gp\/product)\/\w{10}/)[0];
+  console.log(res.trim());
 }

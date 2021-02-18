@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "alfy": "^0.10.0"
+    "alfy": "^0.10.0",
+    "cheerio-httpcli": "^0.8.1"
   }
 }
